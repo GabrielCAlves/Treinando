@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Enviando e Finalizando') {
       steps {
         mail(body: 'Estamos iniciando a pipeline', subject: '[Jenkins] iniciando pipeline')
       }
